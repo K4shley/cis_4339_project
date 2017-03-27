@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Customer name:</strong>
+  <%= @appointment.customer_name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @appointment.timeslot.start_time.strftime("%I:%M %p") %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @appointment.date %>
+</p>
+
+<p>
+  <strong>Employee:</strong>
+  <%= @appointment.employee.first_name %>
+</p>
+
+<p>
+  <strong>Activity:</strong>
+  <%= @appointment.activity.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= number_to_currency(@appointment.activity.price) %>
+</p>
+
+<%#<p>
+  <strong>Price:</strong>
+  <%= @appointment.price %>
+<%#</p>%>
+
+<%#<p>
+  <strong>Duration:</strong>
+  <%= @appointment.activity.duration %>
+<%#</p>%>
+
+<%= link_to 'Edit', edit_appointment_path(@appointment) %> |
+<%= link_to 'Back', appointments_path %>
