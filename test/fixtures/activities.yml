@@ -3,9 +3,9 @@
 one:
   name: MyString
   price: 9.99
-  duration: 1
+ # duration: 1
 
 two:
   name: MyString
   price: 9.99
-  duration: 1
+ # duration: 1

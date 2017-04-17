@@ -1,5 +1,7 @@
 class Timeslot < ApplicationRecord
   has_many :appointments
+
+
 end
 
 def start_end_timeslot

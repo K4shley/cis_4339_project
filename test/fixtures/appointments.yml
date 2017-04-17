@@ -2,18 +2,18 @@
 
 one:
   customer_name: MyString
-  start_time: 2017-03-26 01:33:21
+#  start_time: 2017-03-26 01:33:21
   date: 2017-03-26
   employee: one
   activity: one
   price: 9.99
-  duration: 1
+ # duration: 1
 
 two:
   customer_name: MyString
-  start_time: 2017-03-26 01:33:21
+ # start_time: 2017-03-26 01:33:21
   date: 2017-03-26
   employee: two
   activity: two
   price: 9.99
-  duration: 1
+ # duration: 1
