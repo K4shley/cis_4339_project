@@ -1,0 +1,15 @@
+= Design
+
+This page contains the design for my application. I used four tables that provide the needed
+functionality for the Salon Application.
+Please feel free to view my diagrams below.
+
+==== UML Model
+
+image::uml.jpg[]
+
+==== UML Activity Model
+
+image::activityuml.jpg[]
+
+'''

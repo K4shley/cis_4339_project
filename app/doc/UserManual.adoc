@@ -1,0 +1,99 @@
+
+= User Manual
+
+== Accessing the Application
+
+Please use this url:
+
+== General Overview
+
+* No fields in any form can be left blank. Creation of an Employee, Activity, Appointment, or Timeslot will not go through until all fields have been filled.
+* Using the "Back" link (where available) will return to the page previous to the current one.
+* The Show, Edit, and Delete options all function the same way in each page. Show gives an expanded view of a record. Edit reopens a page's form to edit a record's information. Delete will delete a selected record. Please note that a record can't be deleted if it is referenced by a record in another page. For example, an employee can't be deleted until all of their appointments have been deleted.
+
+== Employee Overview
+
+The Employees page acts as the hub of employee information. All current employees are listed in a table with their first and last name. Clicking on show for a particular employee record will present an expanded employee record, complete with first name, last name, and total pay made as an employee. Employees are paid 50% of the appointment fee that is made from each appointment that they undertake.
+
+=== Creating A New Employee
+
+. Click on the "Employees" link in the top navigation bar.
+. Click on the "New Employee" link under the Employees table.
+. Fill out the information pertaining to the new employee requested by the form.
+. Click on the "Create Employee" button on the bottom of the form to create the new employee.
+
+==== Notes
+
+* An appointment can be undertaken by only one employee, but employees can have multiple appointments, provided they are not on the same day at the same timeslot.
+
+
+== Activity Overview
+
+The Activities page is where salon activities are created. Activities have a name and an associated price. The price is what will be paid by the customer to perform the activity. 50% of the price will be paid to the employee performing the activity.
+
+=== Creating A New Activity
+
+. Click on the "Activities" link in the top navigation bar.
+. Click on the "New Activity" link under the Activities table.
+. Fill out the information pertaining to the new activity requested by the form.
+. Click on the "Create Activity" button on the bottom of the form to create the new activity.
+
+==== Notes
+
+* Only one activity can be performed per appointment.
+* Price only takes numbers.
+* Price can only be within the range of 0.01 and 100.
+* Typing a dollar sign with price is not necessary, as any valid number entered into the price field will automatically be formatted to currency.
+
+== Appointment Overview
+
+The Appointments page is where customer appointments are scheduled. The Customer Name field gets filled out, while choices are made for the drop down menu and datepicker fields. A customer can schedule as many appointments as needed, provided that they don't schedule appointments at the same date and timeslot.
+
+=== Creating A New Appointment
+
+. Click on the "Appointments" link in the top navigation bar.
+. Click on the "New Appointment" link under the Appointments table.
+. Fill out the information pertaining to the new appointments requested by the form.
+. Select available choices from the drop down fields.
+. Click on the "Create Appointment" button on the bottom of the form to create the new appointment.
+
+==== Notes
+
+* Employees cannot have two or more appointments at the same time and date. If there's an attempt to create an appointment that has the same
+combination of timeslot, date, and employee, the appointment will be rejected until one of the fields is changed.
+* Activity, Timeslot, and Employee must all exist before an appointment can be made.
+* Dates before today cannot be chosen for an appointment. The appointment will not be created until a today's date or a future date is chosen.
+
+== Timeslot Overview
+
+The timeslots page shows all the possible timeslots available for employees to take an appointment. Each appointemnt is 30 minutes.
+
+=== Creating A New Timeslot
+
+. Click on the "Timeslots" link in the top navigation bar.
+. Click on the "New Timeslot link under the Timeslots table.
+. Fill out the information pertaining to the new timeslot requested by the form.
+. Click on the "Create Timeslot" button on the bottom of the form to create the new timeslot.
+
+
+CAUTION: Proceed with caution, as no restrictions have been imposed on what times can be placed in a new timeslot.
+
+== Schedule Overview
+
+The schedule page serves as a quick view of appointments for employees. All appointments are displayed in a table. If any changes needs to be made to existing appointments, or if new appointments need to be made, those actions must be taken in the appointment page.
+
+== Report Overview
+
+The reports page serves as a hub for searching for a variety of information that is available within made appointments. There are three types of reports:
+
+* "Appointments By Date", which returns a list of appointments within a selected time range.
+* "Appointments By Employee", which returns a list of appointments worked by a selected employee.
+* "Employee Pay By Date" which returns a selected employee's during a selected time range. (Employee pay is 50% of an appointment fee)
+
+
+==== Notes
+* Filling out the required information will generate a table with the requested information (or a simple statement in the case of "Employee Pay By Date").
+* The dates on the "Appointments By Date" and "Appointments By Employee" are clickable. Clicking them leads to an expanded view of the chosen record on the "Appointments" page.
+
+
+Back

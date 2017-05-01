@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<div class="content">
 <p>
   <strong>Start time:</strong>
   <%= @timeslot.start_time.strftime("%I:%M %p") %>
@@ -12,3 +12,4 @@
 
 <%= link_to 'Edit', edit_timeslot_path(@timeslot) %> |
 <%= link_to 'Back', timeslots_path %>
+</div>

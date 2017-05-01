@@ -1,19 +1,60 @@
 <p id="notice"><%= notice %></p>
 
+<div class="content">
+
 <p>
-  <strong>First name:</strong>
+  <strong>First Name:</strong>
   <%= @employee.first_name %>
 </p>
 
 <p>
-  <strong>Last name:</strong>
+  <strong>Last Name:</strong>
   <%= @employee.last_name %>
 </p>
 
-<p>
+<!--p>
   <strong>Shift:</strong>
-  <%= @employee.shift.start_time.strftime("%I:%M %p") %>
+  <!%= @employee.shift.start_time.strftime("%I:%M %p") %>
+</p>-->
+
+<!--<p>
+  <strong>Appointments List</strong>
+  <!% @employees.each do |appointments| %>
+    <!%= app.appointment.customer_name %>
+      <!%= app.appointment.date %>
+      <!%= app.appointment.activity%>
+<!% end %>
+</p>-->
+
+<!--% @appointments.each do |app| %>
+    <!tr>
+      <!td><!%= app.employee.first_name %></td>
+      <!td><!%= app.customer_name %></td>
+
+    <!/tr>
+<!--% end %>
+-->
+<p>
+
+  <strong>All-Time Pay:</strong>
+<%
+  sum = 0
+
+  @employee.appointments.each do |app| %>
+   <%= sum += app.activity.price
+
+  if app == @employee.appointments.last
+
+  number_to_currency(sum*0.50)
+
+   end
+
+   %>
+
+<% end %>
+
 </p>
 
 <%= link_to 'Edit', edit_employee_path(@employee) %> |
 <%= link_to 'Back', employees_path %>
+</div>

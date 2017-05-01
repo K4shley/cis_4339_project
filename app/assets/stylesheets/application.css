@@ -10,6 +10,84 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *= require jquery-ui
+
+ *= require_tree
  *= require_self
- */
+*/
+
+.centerstuff {
+    text-align: center ;
+    background-color: lightblue ;
+
+    text-decoration: none ;
+   /height: 100px ;
+    margin-bottom: 20px ;
+
+
+
+
+
+}
+
+.content {
+
+    padding: 10px;
+
+
+    position:relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: Georgia;
+
+}
+.new {
+    text-align: center;
+}
+
+
+.table {
+    font-family: Georgia;
+    text-align: center;
+    background-color: rgb(255, 252, 232);
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.title {
+        font-family: cursive ;
+    text-align: center  ;
+}
+
+.homepage
+{
+    text-align: center;
+}
+
+.footy{
+    text-align:right ;
+    background-color: lightblue ;
+    margin-top: 20px ;
+
+}
+
+
+.background
+{
+    background-image: url("salonbg.jpg");
+   / opacity: 0.3;
+   / background-repeat:no-repeat;
+
+    background-size:cover;
+}
+
+.ol_list
+{
+    float: left;
+
+}

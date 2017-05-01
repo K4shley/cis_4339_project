@@ -1,0 +1,69 @@
+= User Stories
+
+These are the user stories related to my Salon Application
+
+== Activity
+The following are user stories related to the Activity
+
+. Salon Manager should be able to add any amount of activities
+
+.. Activities must have a name and price
+.. Activities must be unique
+
+
+. Salon Manager should be able to delete Activities
+
+. Salon Manager should be able to update Activity information
+
+== Appointment
+The following are user stories related to the Appointment
+
+. Salon Manager should be able to add any amount of Appointments
+
+.. Employee, Activity, and Timeslot need to exist for a valid Appointment
+
+.. Employees are booked for a half-hour during each Appointment
+
+
+. Appointments require a specific timeslot choice
+
+. Employees cannot be booked twice or more at the same time and date
+
+. Customers cannot have two or more appointments at the same time or date
+
+. Salon Manager should be able to delete Appointments
+
+. Salon Manager should be able to update Appointments information
+
+== Employee
+The following are user stories related to the Employee
+
+. Salon Manager should be able to add any amount of Employees
+
+.. Employees must be unique
+
+.. Employees must have a first name and last name
+
+. Salon Manager should be able to delete Employees
+
+. Salon Manager should be able to update Employee information
+
+== Report
+The following are user stories related to the Report
+
+. Dock Manager should be able to view Reports
+
+
+
+== Timeslot
+The following are user stories related to the Timeslot
+
+
+. Salon Manager should be able to add any amount of Timeslots
+
+
+.. Timeslots must have a start time and end time
+
+. Salon Manager should be able to delete Timeslots
+
+. Salon Manager should be able to update Timeslot information

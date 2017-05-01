@@ -1,0 +1,13 @@
+<br>
+<div class= "content">
+
+
+  <h1>Post Mortem</h1>
+<p>I died n shit</p>
+  <%=require 'asciidoctor'%>
+
+  <%=Asciidoctor.convert_file 'PostMortem.adoc'%>
+
+  <%= link_to 'Back', documentation_path %>
+
+</div>

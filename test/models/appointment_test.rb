@@ -16,5 +16,11 @@ class AppointmentTest < ActiveSupport::TestCase
 
   end
 
+  test "employee_name cannot be blank" do
+    #@appointment.employee_id= nil
+    assert (@appointment.invalid? "Employee name must not be blank")
+
+  end
+
 
 end

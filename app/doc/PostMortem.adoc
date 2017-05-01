@@ -1,0 +1,28 @@
+== Post-Mortem
+
+This definitely was not a friendly project for me at the start. I wasn't a proficient programmer at the start of the semester, so
+I was especially dreading the project as I learned about it. Learning about developing in Ruby was definitely
+an intriguing experience. I liked that scaffolding provided the majority of
+of the application framework right at the start, so I could focus more on molding code into
+what I needed it to do. Creating methods, and using HTML and CSS proved to be not as complicated as well.
+With all these things in mind, I can happily say that this project wasn't too bad.
+
+With the class being more open ended, I definitely struggled to keep up in the beginning. Trying to follow along in class
+was a bit daunting, and if one error popped up, I was doomed to fall behind a great distance. Due to that, I had to work
+much more outside of class to gain an understanding of topics as they pertain to the class and project.
+
+The project definitely had alot of annoyances here and there, but the annoyances were typical programming annoyances.
+A missing character here, an out of place greater-than sign there, and the whole project can come crumbling down.
+Fortunately, the only major issues I had concerned how to approach a project requirement. Reporting was
+definitely a confusing thing to me. I remember googling about reporting within a Ruby on Rails
+application and got directed to a bunch of random gems (that I did download and never ended up using). At the end of the day,
+reporting ended up being not as complicated as I thought, and I just was over-thinking things.
+
+The project was overall a cool learning experience. Once things began to click, I was able to
+program at 100 miles per hour and do things I didn't think were possible at the beginning
+of the semester. I am certain that my experience with Ruby on Rails will be useful
+in the future.
+
+
+
+-Kenneth Ashley

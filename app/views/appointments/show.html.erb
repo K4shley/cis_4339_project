@@ -1,8 +1,11 @@
 <p id="notice"><%= notice %></p>
-
+<div class="content">
 <p>
+
   <strong>Customer name:</strong>
   <%= @appointment.customer_name %>
+
+
 </p>
 
 <p>
@@ -30,6 +33,7 @@
   <%= number_to_currency(@appointment.activity.price) %>
 </p>
 
+
 <%#<p>
   <strong>Price:</strong>
   <%= @appointment.price %>
@@ -42,3 +46,4 @@
 
 <%= link_to 'Edit', edit_appointment_path(@appointment) %> |
 <%= link_to 'Back', appointments_path %>
+</div>

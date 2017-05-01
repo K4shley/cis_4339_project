@@ -1,0 +1,20 @@
+= Documentation
+
+Kenneth Ashley, PSID: 1181795, CIS 4339 Spring 2017, Professor Lancaster
+
+= About
+
+This is a semester-long project for Professor Lancaster's class (CIS 4339) at the University of Houston. The project is
+a hair salon management system that includes such functionality as:
+employee scheduling
+appointment management for customers
+simple reporting for management
+simple customer payment management
+
+
+= Navigation
+
+Design
+Post Mortem
+User Manual
+User Stories

@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html>
-<%= link_to 'Shifts', shifts_path %>
-<%= link_to 'Employees', employees_path %>
-<%= link_to 'Activites', activities_path %>
-<%= link_to 'Appointments', appointments_path %>
-<%= link_to 'Timeslots', timeslots_path %>
+<html >
+
 
   <head>
     <title>KwashleyProjectCis4339</title>
     <%= csrf_meta_tags %>
 
+
+<div class="centerstuff"><br>
+
+  <h1 class = "title">Stylistics Hair Salon</h1>
+  <%= link_to 'Home', welcome_index_path %>
+  <%= link_to 'Schedule', shifts_path %>
+  <%= link_to 'Employees', employees_path %>
+  <%= link_to 'Activities', activities_path %>
+  <%= link_to 'Appointments', appointments_path %>
+  <%= link_to 'Timeslots', timeslots_path %>
+  <%= link_to 'Reports', reports_path %>
+
+</div>
+
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class = "background">
+
     <%= yield %>
+
   </body>
+
+<footer class= "footy"><%= link_to 'Documentation', documentation_path %></footer>
+
 </html>
