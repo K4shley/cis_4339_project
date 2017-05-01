@@ -21,7 +21,7 @@
     background-color: lightblue ;
 
     text-decoration: none ;
-   /height: 100px ;
+
     margin-bottom: 20px ;
 
 
@@ -80,8 +80,7 @@ table, th, td {
 .background
 {
     background-image: url("salonbg.jpg");
-   / opacity: 0.3;
-   / background-repeat:no-repeat;
+
 
     background-size:cover;
 }
