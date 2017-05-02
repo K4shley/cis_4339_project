@@ -1,5 +1,5 @@
 class Shift < ApplicationRecord
-  has_many :appointments
+  
  # class no longer used in project, but scaffold is kept in order to use the view as a simple view (no editing) for appointments
 end
 

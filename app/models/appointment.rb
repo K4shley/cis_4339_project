@@ -2,7 +2,6 @@ class Appointment < ApplicationRecord
   belongs_to :employee
   belongs_to :activity
   belongs_to :timeslot
-  belongs_to :shift
 
   validates :customer_name, presence:true
   validates :customer_name, length: { maximum: 100 }
