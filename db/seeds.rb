@@ -28,7 +28,7 @@ timeslots = Timeslot.create([{ start_time: '8:00', end_time:'8:30'},{ start_time
                              { start_time: '16:00', end_time:'16:30'},{ start_time: '16:30', end_time:'17:00'},
                              { start_time: '17:00', end_time:'17:30'},{ start_time: '17:30', end_time:'18:00'},])
 
-appointments = Appointment.create([{ customer_name: 'Brandon Rogers', timeslot: timeslots.second, date: '2017-04-06', employee: employees.first, activity: activities.first },
-                                   { customer_name: 'Lisa Sampsom', timeslot: timeslots.fifth, date: '2017-04-14', employee: employees.second, activity: activities.second },
-                                   { customer_name: 'Darren Chambers', timeslot: timeslots.first, date: '2017-04-19', employee: employees.first, activity: activities.third },
-                                   { customer_name: 'Chloe Maxwell', timeslot: timeslots.fourth , date: '2017-04-23', employee: employees.third, activity: activities.fourth }])
+appointment = Appointment.create([{ customer_name: 'Brandon Rogers', timeslot: timeslots.second, date: '2017-04-06', employee: employees.first, activity: activities.first },
+                                  { customer_name: 'Lisa Sampsom', timeslot: timeslots.fifth, date: '2017-04-14', employee: employees.second, activity: activities.second },
+                                  { customer_name: 'Darren Chambers', timeslot: timeslots.first, date: '2017-04-19', employee: employees.first, activity: activities.third },
+                                  { customer_name: 'Chloe Maxwell', timeslot: timeslots.fourth , date: '2017-04-23', employee: employees.third, activity: activities.fourth }])
