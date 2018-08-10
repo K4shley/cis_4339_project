@@ -33,7 +33,7 @@
 
   <div class="field">
     <%= f.label :employee_id %>
-    <%= f.collection_select :employee_id, Employee.all, :id, :first_last_name, :prompt => true %>
+    <%= f.collection_select :employee_id, Employee.all, :id, :id, :prompt => true %>
   </div>
 
   <div class="field">
